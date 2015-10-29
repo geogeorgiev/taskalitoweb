@@ -3,8 +3,8 @@ title: Taskalito
 email: office@taskalito.com
 description: > # this means to ignore newlines until "baseurl:"
   Taskalito is a mobile app that lets users create task reminders from images. Compared to other productivity apps, it is focused on images and less typing.
-baseurl: "/taskalitoweb" # the subpath of your site, e.g. /blog/
-url: "http://gooshan.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://taskalito.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
