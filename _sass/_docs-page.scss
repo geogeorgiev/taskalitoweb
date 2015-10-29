@@ -1,0 +1,18 @@
+
+
+/* SUPPORT */
+
+.doc-section {
+	min-height: 600px;
+    & .content {
+        //width: 75%;
+        padding: 1em;
+    }
+    & aside {
+        //width: 25%;
+    }
+    & .content, aside {
+        //float:left;
+    }
+
+}

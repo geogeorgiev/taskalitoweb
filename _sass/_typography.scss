@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Light";
+    src: url(/fonts/helvetica-neue/HelveticaNeueLTStd-Th.otf);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(/fonts/helvetica-neue/HelveticaNeueLTStd-LtEx.otf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(/fonts/helvetica-neue/HelveticaNeueLTStd-MdCn.otf);
+}
+
+
+.f-light {
+    font-family: "Light", "Helvetica-Neue", Arial, sans-serif;
+    font-weight: 100;
+}
+.f-regular {
+    font-family: "Book", "Helvetica-Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+.f-bold {
+    font-family: "bold", "Helvetica-Neue", Arial, sans-serif;
+    font-weight: 600;
+}
+
+
+.fs-small {
+    font-size: 18px;
+}
+
+.fs-normal {
+    font-size: 18px;
+}
+
+.fs-large {
+    font-size: 30px;
+}
+
+.f-extra-large {
+    font-size: 42px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-highlight {
+    font-family: "Demi", Arial, sans-serif;
+}
+
+a {
+    color: $marsala;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        color: $beige;
+    }
+}
+
+
+h1, h2 {
+    @extend .f-bold; 
+}
+
+h3 {
+    @extend .f-regular;
+    line-height: 1.3;
+}
+p, li {
+    @extend .f-regular;
+    @extend .fs-normal; 
+    line-height: 1.5;
+}

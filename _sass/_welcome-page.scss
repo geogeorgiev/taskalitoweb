@@ -1,0 +1,84 @@
+
+/* Photoreel */
+#photoreelSubsection {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-image: url("/img/photoreel.jpg");
+    background-repat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    -webkit-animation: reel 40s infinite;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%; width: 100%;
+        background-color: black;
+        opacity: 0.2;
+    }
+    h1 {
+        position: absolute;
+        top: 40%; left: 0;
+        color: white;
+        letter-spacing: 1px;
+        backface-visibility: visible !important;
+        
+    }
+
+
+}
+
+@-webkit-keyframes reel{
+    0% {
+        background-position-x: 0px
+    }
+
+    50% {
+        background-position-x: 200px
+    }
+    100% {
+        background-position-x: 0px
+    }
+}
+
+
+
+/* Main section */
+#downloadSubsection {
+    margin-top: 100px;
+}
+
+.download-icon-img {
+    margin-left: 40%;
+    max-width: 200px;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    &:hover {
+        @extend .shake;
+    }
+}
+
+#demo-images {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    img {
+        display: inline-block;
+        width: 23%;
+        max-width: 150px;
+        margin-right: 2%;
+        box-shadow: 1px 1px 6px 0px gray;
+
+    }
+}
+
+
+/* Bottom section */
+
+#descriptionSubsection {
+    margin: 100px auto;
+}

@@ -1,0 +1,27 @@
+/* Header and Footer */
+header, footer {
+    height: 80px;
+}
+
+header {
+    margin-top: 20px;
+    li {
+        line-height: 40px;
+    }
+}
+
+.logo {
+    float: left;
+    height: 40px;
+    margin-left: 0;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+
+small {
+    color: $nav-link-color;
+    &:hover {
+        color: $beige;
+    }
+}
